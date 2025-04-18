@@ -141,7 +141,7 @@ const Home = () => {
                       <div className="salv-social-content">
                         <ul className="salv-social-list">
                           <li className="salv-social-icon">
-                            <a href="">
+                            <a href="https://facebook.com">
                               <svg
                                 width="10"
                                 height="18"
@@ -156,7 +156,7 @@ const Home = () => {
                               </svg>
                             </a>
                           </li>
-                          <li className="salv-social-icon">
+                          {/* <li className="salv-social-icon">
                             <a href="">
                               <svg
                                 width="20"
@@ -184,9 +184,9 @@ const Home = () => {
                                 </g>
                               </svg>
                             </a>
-                          </li>
+                          </li> */}
                           <li className="salv-social-icon">
-                            <a href="">
+                            <a href="https://www.instagram.com/santystation/">
                               <svg
                                 width="20"
                                 height="20"
@@ -215,7 +215,7 @@ const Home = () => {
                             </a>
                           </li>
                           <li className="salv-social-icon">
-                            <a href="">
+                            <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
                               <svg
                                 width="20"
                                 height="20"

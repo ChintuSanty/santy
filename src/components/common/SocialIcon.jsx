@@ -8,7 +8,7 @@ const SocialIcon = () =>
           <div className="salv-social-content">
             <ul className="salv-social-list dark-social-list">
               <li className="salv-social-icon">
-                <a href="">
+                <a href="https://www.facebook.com">
                   <svg
                     width="10"
                     height="18"
@@ -23,7 +23,7 @@ const SocialIcon = () =>
                   </svg>
                 </a>
               </li>
-              <li className="salv-social-icon">
+              {/* <li className="salv-social-icon">
                 <a href="">
                   <svg
                     width="20"
@@ -51,9 +51,9 @@ const SocialIcon = () =>
                     </g>
                   </svg>
                 </a>
-              </li>
+              </li> */}
               <li className="salv-social-icon">
-                <a href="">
+                <a href="https://www.instagram.com/santystation/">
                   <svg
                     width="20"
                     height="20"
@@ -82,7 +82,7 @@ const SocialIcon = () =>
                 </a>
               </li>
               <li className="salv-social-icon">
-                <a href="">
+                <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
                   <svg
                     width="20"
                     height="20"

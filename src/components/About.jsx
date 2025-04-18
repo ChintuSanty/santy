@@ -145,7 +145,7 @@ const About = () => {
                                   <div className="sakv-new-menu-social">
                                     <ul className="salv-menu-social-list">
                                       <li className="salv-menu-social-icon">
-                                        <a href="">
+                                        <a href="https://facebook.com">
                                           <svg
                                             width="10"
                                             height="18"
@@ -160,7 +160,7 @@ const About = () => {
                                           </svg>
                                         </a>
                                       </li>
-                                      <li className="salv-menu-social-icon">
+                                      {/* <li className="salv-menu-social-icon">
                                         <a href="">
                                           <svg
                                             width="20"
@@ -191,9 +191,9 @@ const About = () => {
                                             </g>
                                           </svg>
                                         </a>
-                                      </li>
+                                      </li> */}
                                       <li className="salv-menu-social-icon">
-                                        <a href="">
+                                        <a href="https://www.instagram.com/santystation/">
                                           <svg
                                             width="20"
                                             height="20"
@@ -225,7 +225,7 @@ const About = () => {
                                         </a>
                                       </li>
                                       <li className="salv-menu-social-icon">
-                                        <a href="">
+                                        <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
                                           <svg
                                             width="20"
                                             height="20"
@@ -278,7 +278,7 @@ const About = () => {
                                           about
                                         </Link>
                                       </li>
-                                      <li className="salv-sec-menu-link">
+                                      {/* <li className="salv-sec-menu-link">
                                         <Link
                                           to="/portfolio"
                                           target="_self"
@@ -295,7 +295,7 @@ const About = () => {
                                         >
                                           news
                                         </Link>
-                                      </li>
+                                      </li> */}
                                       <li className="salv-sec-menu-link">
                                         <Link
                                           to="/contact"
@@ -309,13 +309,13 @@ const About = () => {
                                   </div>
                                   <div className="salv-mob-copyright">
                                     <p className="salv-copyright-content mb-0 sm-font inter-font-400 b-text light-copyright">
-                                      Copyright © 2023 Salva ❤{" "}
+                                      Copyright © 2025 ❤{" "}
                                       <Link
-                                        to="https://1.envato.market/website-portfolio"
+                                        to="https://santy.in"
                                         className="w-text"
                                         target="_blank"
                                       >
-                                        the_krishna
+                                        Santy
                                       </Link>
                                     </p>
                                   </div>
@@ -363,7 +363,7 @@ const About = () => {
                     <PersonalInfo />
 
                     {/* <!--About programming and language --> */}
-                    <Programming />
+                    {/* <Programming /> */}
 
                     {/* <!--About Service section here --> */}
                     <ServiceSection />

@@ -140,7 +140,7 @@ const Contact = () =>
                                   <div className="sakv-new-menu-social">
                                     <ul className="salv-menu-social-list">
                                       <li className="salv-menu-social-icon">
-                                        <a href="">
+                                        <a href="https://facebook.com">
                                           <svg
                                             width="10"
                                             height="18"
@@ -155,7 +155,7 @@ const Contact = () =>
                                           </svg>
                                         </a>
                                       </li>
-                                      <li className="salv-menu-social-icon">
+                                      {/* <li className="salv-menu-social-icon">
                                         <a href="">
                                           <svg
                                             width="20"
@@ -186,9 +186,9 @@ const Contact = () =>
                                             </g>
                                           </svg>
                                         </a>
-                                      </li>
+                                      </li> */}
                                       <li className="salv-menu-social-icon">
-                                        <a href="">
+                                        <a href="https://www.instagram.com/santystation/">
                                           <svg
                                             width="20"
                                             height="20"
@@ -220,7 +220,7 @@ const Contact = () =>
                                         </a>
                                       </li>
                                       <li className="salv-menu-social-icon">
-                                        <a href="">
+                                        <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
                                           <svg
                                             width="20"
                                             height="20"
