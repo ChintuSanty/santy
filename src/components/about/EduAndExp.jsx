@@ -56,7 +56,37 @@ const EduAndExp = () => {
               <div className="eduction-card edu-card-one dark-edu-card">
                 <div className="year-edu-className">
                   <div className="educ-year">
-                    AUG 2023 - MAY 2025 : UI/UX Lead
+                    JUL 2025 - TILL DATE : Lead Application Developer
+                  </div>
+                  <p className="about-edu-title sm-md-font w-text inter-font-500 mb-0">
+                    HSBC(PurView Services)
+                  </p>
+                </div>
+                <div className="about-desc sm-font-two inter-font-400 dark-sec-color">
+                  <ul>
+                    <li>
+                      Led a team of 8 designers & developers to build an
+                      internal portal, improving data processing efficiency by
+                      30%.
+                    </li>
+                    <li>
+                      Designed wireframes in Figma and developed responsive UI
+                      using ReactJS & Bootstrap.
+                    </li>
+                    <li>
+                      Conducted usability testing, optimizing workflow
+                      navigation for internal teams.
+                    </li>
+                    <li>
+                      Reviewed and deployed front-end code with CI/CD pipelines.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="eduction-card edu-card-one dark-edu-card">
+                <div className="year-edu-className">
+                  <div className="educ-year">
+                    AUG 2023 - JUN 2025 : UI/UX Lead
                   </div>
                   <p className="about-edu-title sm-md-font w-text inter-font-500 mb-0">
                     HSBC(PurView Services)
