@@ -59,7 +59,7 @@ const EduAndExp = () => {
                     JUL 2025 - TILL DATE : Lead Application Developer
                   </div>
                   <p className="about-edu-title sm-md-font w-text inter-font-500 mb-0">
-                    HSBC(PurView Services)
+                    Cleartelligence Pvt Ltd
                   </p>
                 </div>
                 <div className="about-desc sm-font-two inter-font-400 dark-sec-color">
