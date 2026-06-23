@@ -100,24 +100,15 @@ const Contact = () =>
                                     About
                                   </Link>
                                 </li>
-                                {/* <li className="salv-menu-item">
-                                  <Link
-                                    to="/portfolio"
-                                    target="_self"
-                                    className="salv-menu-link dark-color"
-                                  >
-                                    Portfolio
-                                  </Link>
-                                </li>
                                 <li className="salv-menu-item">
                                   <Link
-                                    to="/news"
+                                    to="/projects"
                                     target="_self"
                                     className="salv-menu-link dark-color"
                                   >
-                                    News
+                                    Projects
                                   </Link>
-                                </li> */}
+                                </li>
                                 <li className="salv-menu-item">
                                   <Link
                                     to="/contact"
@@ -273,24 +264,15 @@ const Contact = () =>
                                           about
                                         </Link>
                                       </li>
-                                      {/* <li className="salv-sec-menu-link">
-                                        <Link
-                                          to="/portfolio"
-                                          target="_self"
-                                          className="slav-tb-menu-name"
-                                        >
-                                          portfolio
-                                        </Link>
-                                      </li>
                                       <li className="salv-sec-menu-link">
                                         <Link
-                                          to="/news"
+                                          to="/projects"
                                           target="_self"
                                           className="slav-tb-menu-name"
                                         >
-                                          news
+                                          projects
                                         </Link>
-                                      </li> */}
+                                      </li>
                                       <li className="salv-sec-menu-link">
                                         <Link
                                           to="/contact"

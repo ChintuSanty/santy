@@ -105,24 +105,15 @@ const About = () => {
                                     About
                                   </Link>
                                 </li>
-                                {/* <li className="salv-menu-item">
-                                  <Link
-                                    to="/portfolio"
-                                    target="_self"
-                                    className="salv-menu-link dark-color"
-                                  >
-                                    Portfolio
-                                  </Link>
-                                </li>
                                 <li className="salv-menu-item">
                                   <Link
-                                    to="/news"
+                                    to="/projects"
                                     target="_self"
                                     className="salv-menu-link dark-color"
                                   >
-                                    News
+                                    Projects
                                   </Link>
-                                </li> */}
+                                </li>
                                 <li className="salv-menu-item">
                                   <Link
                                     to="/contact"
@@ -278,24 +269,15 @@ const About = () => {
                                           about
                                         </Link>
                                       </li>
-                                      {/* <li className="salv-sec-menu-link">
-                                        <Link
-                                          to="/portfolio"
-                                          target="_self"
-                                          className="slav-tb-menu-name"
-                                        >
-                                          portfolio
-                                        </Link>
-                                      </li>
                                       <li className="salv-sec-menu-link">
                                         <Link
-                                          to="/news"
+                                          to="/projects"
                                           target="_self"
                                           className="slav-tb-menu-name"
                                         >
-                                          news
+                                          projects
                                         </Link>
-                                      </li> */}
+                                      </li>
                                       <li className="salv-sec-menu-link">
                                         <Link
                                           to="/contact"
@@ -346,16 +328,16 @@ const About = () => {
                           data-aos-offset="300"
                           data-aos-easing="ease-in-sine"
                         >
-                          UI/UX Lead with 12+ years of experience designing,
-                          developing, and optimizing digital products. Expertise
-                          in front-end development (ReactJS, Tailwind,
-                          Bootstrap), UX research, design systems, and
-                          accessibility. Proven ability to lead cross-functional
-                          teams, streamline product development, and enhance
-                          user engagement. Passionate about mentoring designers
-                          and developers while aligning design strategies with
-                          business goals. Hands-on with Agile methodologies,
-                          prototyping, and cloudbased deployment.
+                          AI Engineer, AI Solutions Architect, and UI/UX
+                          Architect with 13+ years architecting enterprise
+                          applications, AI-powered analytics platforms, and
+                          scalable front-end systems across Banking, Healthcare,
+                          Financial Services, and Data consulting. Skilled in
+                          Solution Architecture, Conversational AI, RAG
+                          pipelines, LLM prompt engineering, AI Agents,
+                          Snowflake Cortex, Databricks, and ReactJS, paired
+                          with deep expertise in Design Systems, Component
+                          Libraries, and WCAG 2.1 accessibility standards.
                         </p>
                       </div>
                     </div>

@@ -56,29 +56,28 @@ const EduAndExp = () => {
               <div className="eduction-card edu-card-one dark-edu-card">
                 <div className="year-edu-className">
                   <div className="educ-year">
-                    JUL 2025 - TILL DATE : Lead Application Developer
+                    JUL 2025 - TILL DATE : Lead &amp; AI Consultant (App Development Lead / AI Solutions Architect)
                   </div>
                   <p className="about-edu-title sm-md-font w-text inter-font-500 mb-0">
-                    Cleartelligence Pvt Ltd
+                    Cleartelligence
                   </p>
                 </div>
                 <div className="about-desc sm-font-two inter-font-400 dark-sec-color">
                   <ul>
                     <li>
-                      Led a team of 8 designers & developers to build an
-                      internal portal, improving data processing efficiency by
-                      30%.
+                      Led end-to-end project lifecycle management for enterprise data and AI consulting engagements, owning solution architecture, system design, sprint planning, UAT, and on-time delivery.
                     </li>
                     <li>
-                      Designed wireframes in Figma and developed responsive UI
-                      using ReactJS & Bootstrap.
+                      Architected and shipped PE Insights — a Conversational AI chatbot for private equity analytics built on Snowflake Cortex Analyst with LLM-based natural language query rewriting.
                     </li>
                     <li>
-                      Conducted usability testing, optimizing workflow
-                      navigation for internal teams.
+                      Designed a dual semantic view RAG pipeline ingesting PDF reports on Databricks, enabling context-aware answers over unstructured financial documents.
                     </li>
                     <li>
-                      Reviewed and deployed front-end code with CI/CD pipelines.
+                      Defined system design standards, established reusable front-end component libraries using React and TypeScript, and enforced Git-based code review processes.
+                    </li>
+                    <li>
+                      Conducted AutoML, Generative AI, and ML tool evaluations (Databricks, Microsoft Fabric, DataRobot), delivering structured PoC assessments.
                     </li>
                   </ul>
                 </div>
@@ -86,29 +85,25 @@ const EduAndExp = () => {
               <div className="eduction-card edu-card-one dark-edu-card">
                 <div className="year-edu-className">
                   <div className="educ-year">
-                    AUG 2023 - JUN 2025 : UI/UX Lead
+                    AUG 2023 - JUL 2025 : UI/UX Lead (UI/UX Architect)
                   </div>
                   <p className="about-edu-title sm-md-font w-text inter-font-500 mb-0">
-                    HSBC(PurView Services)
+                    HSBC (PurView Services)
                   </p>
                 </div>
                 <div className="about-desc sm-font-two inter-font-400 dark-sec-color">
                   <ul>
                     <li>
-                      Led a team of 8 designers & developers to build an
-                      internal portal, improving data processing efficiency by
-                      30%.
+                      Provided visionary leadership to an 8-member cross-functional team, spearheading information architecture, interaction design, and development of a high-impact internal data portal.
                     </li>
                     <li>
-                      Designed wireframes in Figma and developed responsive UI
-                      using ReactJS & Bootstrap.
+                      Architected responsive, user-centric interfaces and design systems using ReactJS and Bootstrap, with intuitive prototypes and wireframes built in Figma.
                     </li>
                     <li>
-                      Conducted usability testing, optimizing workflow
-                      navigation for internal teams.
+                      Introduced automation initiatives that significantly reduced manual data management, slashing turnaround time from 3 days to just 1.
                     </li>
                     <li>
-                      Reviewed and deployed front-end code with CI/CD pipelines.
+                      Orchestrated CI/CD pipeline integration for seamless deployment and quality assurance across environments.
                     </li>
                   </ul>
                 </div>

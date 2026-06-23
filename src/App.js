@@ -10,6 +10,7 @@ import About from "./components/About.jsx";
 import Portfolio from "./components/Portfolio.jsx";
 import News from "./components/News.jsx";
 import Contact from "./components/Contact.jsx";
+import Projects from "./components/Projects.jsx";
 import Cursor from "./components/common/Cursor.jsx";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/news" element={<News />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
       <Cursor />
     </div>
