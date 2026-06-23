@@ -5286,3 +5286,82 @@ body.loaded {
 .salv-dark-footer .salv-wek-text {
     color: #fff !important;
 }
+/*------------------------ [Projects Page CSS] ------------------------*/
+
+.salv-project-card {
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.salv-project-card-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 4px;
+}
+
+.salv-project-icon {
+    padding: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.salv-project-category {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+
+.salv-project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.salv-tag {
+    font-size: 10px;
+    padding: 3px 8px;
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 2px;
+    color: rgba(255,255,255,0.6);
+    white-space: nowrap;
+}
+
+.salv-project-link-wrap {
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+.salv-project-link {
+    font-size: 12px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.salv-project-link:hover {
+    opacity: 1;
+    color: #ffffff !important;
+}
+
+.salv-project-highlight {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.salv-project-card-col {
+    padding-bottom: 4px;
+}
+
+@media (max-width: 767px) {
+    .salv-project-card {
+        min-height: auto;
+    }
+}

@@ -146,32 +146,50 @@ const ServiceSection = () =>
               </div>
             </div>
             <div className="col-12 col-dm-6 col-md-4 col-lg-4 service-card-col service-top-col">
-              {/* <div className="card1 service-card-wrap dark-service-card">
+              <div className="card1 service-card-wrap dark-service-card">
                 <div className="service-icon">
-                  <svg
-                    width="50"
-                    height="50"
-                    viewBox="0 0 50 50"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M41.5938 11.6484C43.3516 13.4062 43.3516 16.2891 41.5938 18.0469L37.9375 21.7031L28.7969 12.5625L32.4531 8.90625C34.2109 7.14844 37.0938 7.14844 38.8516 8.90625L41.5938 11.6484ZM23.875 15.5859C23.2422 14.9531 22.1875 14.9531 21.5547 15.5859L14.3125 22.7578C13.6797 23.4609 12.625 23.4609 11.9922 22.7578C11.2891 22.125 11.2891 21.0703 11.9922 20.3672L19.1641 13.1953C21.1328 11.2266 24.2969 11.2266 26.2656 13.1953L36.3203 23.25L23.1016 36.5391C19.7266 39.9141 15.4375 42.2344 10.7266 43.1484L8.96875 43.5C8.40625 43.6406 7.84375 43.4297 7.49219 43.0078C7.07031 42.6562 6.85938 42.0938 7 41.5312L7.35156 39.7734C8.26562 35.0625 10.5859 30.7734 13.9609 27.3984L24.8594 16.5L23.875 15.5859Z"
-                      fill="#ffffff"
-                    />
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M25 6C14.5 6 6 14.5 6 25s8.5 19 19 19 19-8.5 19-19S35.5 6 25 6zm0 4c8.3 0 15 6.7 15 15s-6.7 15-15 15S10 33.3 10 25 16.7 10 25 10zm-2 6v10l8 5 1.5-2.5-6.5-4V16H23z" fill="#ffffff"/>
+                    <circle cx="25" cy="25" r="3" fill="#ffffff"/>
+                    <path d="M14 20h4M32 20h4M14 30h4M32 30h4M20 14v4M20 32v4M30 14v4M30 32v4" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
                 </div>
                 <h6 className="service-title sm-md-font w-text inter-font-500 mb-0">
-                  Content Writing
+                  AI &amp; ML Engineering
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  Morbi nullam sit dolor diam aenean gravida. Eget commodo
-                  blandit volutpat quis tristique risus, sed. Sed et.
+                  Generative AI, LLM Prompt Engineering, RAG Pipelines, AI Agents, Agentic Workflows, MCP, Snowflake Cortex, Databricks, Ollama, Claude, Vector Search.
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>
                 </div>
-              </div> */}
+              </div>
+            </div>
+            <div className="col-12 col-dm-6 col-md-4 col-lg-4 service-card-col service-top-col">
+              <div className="card1 service-card-wrap dark-service-card">
+                <div className="service-icon">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="6" y="6" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+                    <rect x="28" y="6" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+                    <rect x="6" y="28" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+                    <rect x="28" y="28" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+                    <path d="M14 22v6M36 22v6M22 14h6M22 36h6" stroke="#ffffff" strokeWidth="2.5" strokeLinecap="round"/>
+                    <circle cx="14" cy="14" r="3" fill="#ffffff"/>
+                    <circle cx="36" cy="14" r="3" fill="#ffffff"/>
+                    <circle cx="14" cy="36" r="3" fill="#ffffff"/>
+                    <circle cx="36" cy="36" r="3" fill="#ffffff"/>
+                  </svg>
+                </div>
+                <h6 className="service-title sm-md-font w-text inter-font-500 mb-0">
+                  Solution Architecture
+                </h6>
+                <p className="small service-desc dark-sec-color inter-font-400 mb-0">
+                  Enterprise Architecture, System Design, Microservices, REST API Design, Technology Evaluation, Architecture Decision Records, Stakeholder Communication.
+                </p>
+                <div className="go-corner">
+                  <div className="go-arrow"></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

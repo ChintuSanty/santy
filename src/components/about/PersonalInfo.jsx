@@ -88,6 +88,20 @@ const PersonalInfo = () =>
                   </Link>
                 </span>
               </div>
+              <div className="pers-info-wrap">
+                <span className="pers-info-title w-text sm-md-font inter-font-400">
+                  GitHub:
+                </span>
+                <span className="pers-info-title">
+                  <Link
+                    to="https://github.com/ChintuSanty"
+                    target="_blank"
+                    className="dark-sec-color sm-md-font inter-font-400 links m-2"
+                  >
+                    github.com/ChintuSanty
+                  </Link>
+                </span>
+              </div>
             </div>
           </div>
         </div>
