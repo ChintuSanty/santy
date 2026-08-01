@@ -57,10 +57,10 @@ const GetTouch = () =>
                 </div>
                 <div className="salv-get-in-title">
                   <Link
-                    to="tel:+918142546693"
+                    to="tel:+916302029873"
                     className="sal-get-mail inter-font-500 sm-md-font"
                   >
-                    +91 814 254 6693
+                    +91 63020 29873
                   </Link>
                 </div>
                 <div className="go-corner">
@@ -86,7 +86,7 @@ const GetTouch = () =>
                 </div>
                 <div className="salv-get-in-title">
                   <span className="sal-get-mail inter-font-500 sm-md-font">
-                    Vidyanagar, Hyderabad.
+                    Hyderabad, India
                   </span>
                 </div>
                 <div className="go-corner">

@@ -11,8 +11,9 @@ import Footer from "./Footer";
 import WeekendModeContent from "./common/WeekendModeContent";
 import SocialIcon from "./common/SocialIcon";
 import SalvaLogo from "../assets/images/logo/dark-logo.png";
-import ProfileImg from "../assets/images/homepage/profile-image.png";
 import { Link } from "react-router-dom";
+
+const ProfileImg = "/profile.png";
 
 const About = () => {
   const [isBurgerClicked, setIsBurgerClicked] = useState(false);
@@ -216,7 +217,7 @@ const About = () => {
                                         </a>
                                       </li>
                                       <li className="salv-menu-social-icon">
-                                        <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
+                                        <a href="https://www.linkedin.com/in/santhosh-prabakar/">
                                           <svg
                                             width="20"
                                             height="20"
@@ -328,16 +329,18 @@ const About = () => {
                           data-aos-offset="300"
                           data-aos-easing="ease-in-sine"
                         >
-                          AI Engineer, AI Solutions Architect, and UI/UX
-                          Architect with 13+ years architecting enterprise
-                          applications, AI-powered analytics platforms, and
-                          scalable front-end systems across Banking, Healthcare,
-                          Financial Services, and Data consulting. Skilled in
-                          Solution Architecture, Conversational AI, RAG
-                          pipelines, LLM prompt engineering, AI Agents,
-                          Snowflake Cortex, Databricks, and ReactJS, paired
-                          with deep expertise in Design Systems, Component
-                          Libraries, and WCAG 2.1 accessibility standards.
+                          Principal AI Engineer with 13.5+ years designing and
+                          shipping production LLM-powered agents and enterprise
+                          AI platforms across banking, financial services,
+                          healthcare, and consulting. Specialized in multi-agent
+                          orchestration and tool-calling (LangChain, LangGraph,
+                          MCP) over structured data platforms on Snowflake, AWS,
+                          and Microsoft Azure — building semantic layers,
+                          NL-to-SQL pipelines, and verified query grounding that
+                          let business users query complex data through natural
+                          language. Deep expertise in Python-based RAG and
+                          document intelligence pipelines, agent evaluation,
+                          and guardrail frameworks.
                         </p>
                       </div>
                     </div>

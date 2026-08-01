@@ -176,11 +176,11 @@ a:hover {
 /*------------------------ [2.Homepage CSS] ------------------------*/
 
 .salva-home-image {
-    background-image: url(../images/homepage/dark-home-image.png);
+    background-image: url(../images/homepage/profile.png);
     background-size: cover;
+    background-position: center top;
     width: inherit;
     height: 100vh;
-    background-size: cover;
     left: 0;
     right: 0;
     position: fixed;
@@ -4296,7 +4296,8 @@ body.loaded {
 /*------------------------ [25.Dark Mode CSS] ------------------------*/
 
 .dark-salva-home-image {
-    background-image: url(../images/homepage/dark-home-image.png);
+    background-image: url(../images/homepage/profile.png);
+    background-position: center top;
 }
 
 .salv-dark-home-title:after {

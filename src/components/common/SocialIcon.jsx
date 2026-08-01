@@ -82,7 +82,7 @@ const SocialIcon = () =>
                 </a>
               </li>
               <li className="salv-social-icon">
-                <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
+                <a href="https://www.linkedin.com/in/santhosh-prabakar/">
                   <svg
                     width="20"
                     height="20"

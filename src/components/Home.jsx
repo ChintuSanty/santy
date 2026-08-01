@@ -1,11 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import SalvaLogo from "../assets/images/logo/dark-logo.png";
-import ProfileImg from "../assets/images/homepage/profile-image.png";
 import anime from "animejs";
 import Footer from "./Footer";
 import SocialIcon from "./common/SocialIcon";
 import WeekendModeContent from "./common/WeekendModeContent";
 import { Link } from "react-router-dom";
+
+const ProfileImg = "/profile.png";
+const ResumeFile = "/Santhosh_Prabakar_Badhri_Resume_July_1.pdf";
 
 const Home = () => {
   const textWrapperRef = useRef(null);
@@ -58,10 +60,10 @@ const Home = () => {
   useEffect(() => {
     const textWrapper = textWrapperRef.current;
     if (textWrapper) {
-      const textContent = "Prabakar Badhri";
+      const textContent = "Santhosh Prabakar";
       textWrapper.innerHTML = textContent
         .split("")
-        .map((char, index) =>
+        .map((char) =>
           char === " " ? " " : `<span class='letter'>${char}</span>`
         )
         .join("");
@@ -87,22 +89,21 @@ const Home = () => {
 
   // Download CV functionality
   const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch("/resume.pdf")
-  .then((response) => {
-    if (!response.ok) throw new Error("Network response was not ok");
-    return response.blob();
-  })
-  .then((blob) => {
-    const fileURL = window.URL.createObjectURL(blob);
-    const alink = document.createElement("a");
-    alink.href = fileURL;
-    alink.download = "resume.pdf";
-    alink.click();
-  })
-  .catch((err) => {
-    console.error("Download failed:", err);
-  });
+    fetch(ResumeFile)
+      .then((response) => {
+        if (!response.ok) throw new Error("Network response was not ok");
+        return response.blob();
+      })
+      .then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        const alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Santhosh_Prabakar_Badhri_Resume_July_1.pdf";
+        alink.click();
+      })
+      .catch((err) => {
+        console.error("Download failed:", err);
+      });
   };
 
   return (
@@ -130,11 +131,11 @@ const Home = () => {
                       className="mb-0 salv-home-title salv-dark-home-title lg-font w-text inter-font-900 ml3"
                       ref={textWrapperRef}
                     >
-                      Sergio Marquina
+                      Santhosh Prabakar
                     </h2>
                     <p className="mb-0 salv-home-desc w-text inter-font-500">
-                      Professional UI/UX designer, web developer and AWS Practitioner based on
-                      Hyderabad.
+                      Principal AI Engineer | LLM Agent &amp; Agentic Systems Architect —
+                      RAG, Semantic Data Platforms &amp; Enterprise AI based in Hyderabad.
                     </p>
                     {/* <!--small screen social icon start here --> */}
                     <div className="salv-tablet-view-soci">
@@ -215,7 +216,7 @@ const Home = () => {
                             </a>
                           </li>
                           <li className="salv-social-icon">
-                            <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
+                            <a href="https://www.linkedin.com/in/santhosh-prabakar/">
                               <svg
                                 width="20"
                                 height="20"
@@ -457,7 +458,7 @@ const Home = () => {
                                       </a>
                                     </li>
                                     <li className="salv-menu-social-icon">
-                                      <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
+                                      <a href="https://www.linkedin.com/in/santhosh-prabakar/">
                                         <svg
                                           width="20"
                                           height="20"

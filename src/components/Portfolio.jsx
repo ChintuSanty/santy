@@ -9,7 +9,6 @@ import WeekendModeContent from "./common/WeekendModeContent";
 import SocialIcon from "./common/SocialIcon";
 import Footer from "./Footer";
 import SalvaLogo from "../assets/images/logo/dark-logo.png";
-import ProfileImg from "../assets/images/homepage/profile-image.png";
 import ZorroImg from "../assets/images/portfolio/image-one.png";
 import GooirImg from "../assets/images/portfolio/image-two.png";
 import MozarImg from "../assets/images/portfolio/image-three.png";
@@ -23,6 +22,8 @@ import FamFourImg from "../assets/images/portfolio/image-ten.png";
 import FamFiveImg from "../assets/images/portfolio/image-elev.png";
 import FamSixImg from "../assets/images/portfolio/image-twel.png";
 import { Link } from "react-router-dom";
+
+const ProfileImg = "/profile.png";
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState("one");

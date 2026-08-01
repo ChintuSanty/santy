@@ -5,7 +5,7 @@ const PersonalInfo = () =>
 {
     return (
       <>
-        <div className="salv-about-personal">
+        <div className="salva-about-personal">
           <h3 className="salv-about-personla-title dark-about-personal-title mb-0 w-text sm-md-font inter-font-700">
             Personal Informations
           </h3>
@@ -32,15 +32,21 @@ const PersonalInfo = () =>
                   Address:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  Vidyanagar, Hyderabad
+                  Hyderabad, India
                 </span>
               </div>
               <div className="pers-info-wrap">
                 <span className="pers-info-title w-text sm-md-font inter-font-400">
-                  Age:
+                  Website:
                 </span>
-                <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  34 Years
+                <span className="pers-info-title">
+                  <Link
+                    to="https://santy.in"
+                    target="_blank"
+                    className="dark-sec-color sm-md-font inter-font-400 links m-2"
+                  >
+                    santy.in
+                  </Link>
                 </span>
               </div>
             </div>
@@ -50,7 +56,7 @@ const PersonalInfo = () =>
                   Study:
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
-                  Nexus College of Engineering
+                  Nexus College of Science &amp; Technology
                 </span>
               </div>
               <div className="pers-info-wrap">
@@ -59,7 +65,7 @@ const PersonalInfo = () =>
                 </span>
                 <span className="pers-info-title dark-sec-color sm-md-font inter-font-400 m-2">
                   {" "}
-                  B-Tech(E.C.E)
+                  B.Tech (2012)
                 </span>
               </div>
               <div className="pers-info-wrap">
@@ -68,7 +74,7 @@ const PersonalInfo = () =>
                 </span>
                 <span className="pers-info-title">
                   <Link
-                    to="mailto:hello@salva.com"
+                    to="mailto:hello@santy.in"
                     className="dark-sec-color sm-md-font inter-font-400 links m-2"
                   >
                     hello@santy.in
@@ -81,10 +87,10 @@ const PersonalInfo = () =>
                 </span>
                 <span className="pers-info-title">
                   <Link
-                    to="tel:+918142546693"
+                    to="tel:+916302029873"
                     className="dark-sec-color sm-md-font inter-font-400 links m-2"
                   >
-                    +91 814 254 6693
+                    +91 63020 29873
                   </Link>
                 </span>
               </div>

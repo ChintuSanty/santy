@@ -12,10 +12,11 @@ import ImgEight from "../assets/images/news/news-eight.png";
 import ImgNine from "../assets/images/news/news-nine.png";
 import ImgTen from "../assets/images/news/news-ten.png";
 import SalvaLogo from "../assets/images/logo/dark-logo.png";
-import ProfileImg from "../assets/images/homepage/profile-image.png";
 import WeekendModeContent from "./common/WeekendModeContent";
 import SingleBlogContent from "./news/SingleNewsContent";
 import { Link } from "react-router-dom";
+
+const ProfileImg = "/profile.png";
 
 const News = () => {
   const [visibleBlogs, setVisibleBlogs] = useState(3); // State to manage number of visible blogs

@@ -29,8 +29,8 @@ const ServiceSection = () =>
                   Web Development
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  HTML, CSS, JavaScript, React, FireBase, MySQL, WordPress, Bootstrap, Tailwind CSS,
-                  Git, GitHub, RESTful APIs, JSON, VueJs, Responsive Design.
+                  React (16, 18), TypeScript, JavaScript, Vue2, HTML5, CSS3, Bootstrap,
+                  Styled Components, SantyCSS, Component Design Systems, REST APIs.
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>
@@ -54,10 +54,11 @@ const ServiceSection = () =>
                   </svg>
                 </div>
                 <h6 className="service-title sm-md-font w-text inter-font-500 mb-0">
-                  App Development
+                  Backend &amp; Services
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  React Native, Flutter
+                  Python (async), FastAPI, Pydantic, Java, PHP, REST API design,
+                  tool-interface &amp; data-pipeline engineering.
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>
@@ -81,10 +82,11 @@ const ServiceSection = () =>
                   </svg>
                 </div>
                 <h6 className="service-title sm-md-font w-text inter-font-500 mb-0">
-                  Digital Marketing
+                  RAG &amp; Retrieval
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  S.E.O, S.E.M, S.M.O, S.M.M, E-mail Marketing, Google Ads, Facebook Ads.
+                  Advanced RAG, Semantic &amp; Hybrid Search, BM25, Dense/Sparse Retrieval,
+                  Embeddings, Cross-Encoder Reranking, Document Intelligence.
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>
@@ -108,10 +110,11 @@ const ServiceSection = () =>
                   </svg>
                 </div>
                 <h6 className="service-title sm-md-font w-text inter-font-500 mb-0">
-                  UI/UX Design
+                  Data &amp; Semantic Layer
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  Figma, Adobe XD, Adobe Photoshop, Adobe Illustrator, Corel Draw,
+                  Snowflake Cortex Analyst &amp; Cortex Search, Databricks Vector Search,
+                  Pinecone, ChromaDB, Qdrant, FAISS, SQL (joins, CTEs), MySQL.
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>
@@ -135,10 +138,11 @@ const ServiceSection = () =>
                   </svg>
                 </div>
                 <h6 className="service-title sm-md-font w-text inter-font-500 mb-0">
-                  Cloud Computing
+                  Cloud &amp; Infrastructure
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  AWS, Google Cloud, Digital Ocean, Firebase.
+                  AWS (Bedrock, EC2, S3, Lambda, ECS, EKS, IAM), Microsoft Azure,
+                  Docker, Kubernetes, MLflow, CI/CD &amp; GitHub Actions.
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>
@@ -155,10 +159,11 @@ const ServiceSection = () =>
                   </svg>
                 </div>
                 <h6 className="service-title sm-md-font w-text inter-font-500 mb-0">
-                  AI &amp; ML Engineering
+                  AI &amp; LLM Agents
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  Generative AI, LLM Prompt Engineering, RAG Pipelines, AI Agents, Agentic Workflows, MCP, Snowflake Cortex, Databricks, Ollama, Claude, Vector Search.
+                  LangChain, LangGraph, MCP, Claude, GPT-4, Gemini, Llama2, Amazon Bedrock,
+                  Ollama, Prompt Engineering, Tool Calling, Agent Evaluation (LangSmith, Ragas, DeepEval).
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>
@@ -184,7 +189,8 @@ const ServiceSection = () =>
                   Solution Architecture
                 </h6>
                 <p className="small service-desc dark-sec-color inter-font-400 mb-0">
-                  Enterprise Architecture, System Design, Microservices, REST API Design, Technology Evaluation, Architecture Decision Records, Stakeholder Communication.
+                  Enterprise Architecture, System Design, Microservices, Semantic Modelling,
+                  NL-to-SQL Pipelines, Technology Evaluation, Stakeholder Communication.
                 </p>
                 <div className="go-corner">
                   <div className="go-arrow"></div>

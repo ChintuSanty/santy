@@ -3,32 +3,52 @@ import WeekendModeContent from "./common/WeekendModeContent";
 import SocialIcon from "./common/SocialIcon";
 import Footer from "./Footer";
 import SalvaLogo from "../assets/images/logo/dark-logo.png";
-import ProfileImg from "../assets/images/homepage/profile-image.png";
 import { Link } from "react-router-dom";
+
+const ProfileImg = "/profile.png";
 
 const projects = [
   {
     id: 1,
     title: "PE Insights",
     category: "AI / Conversational",
-    tags: ["Snowflake Cortex", "RAG", "LLM", "Databricks"],
+    tags: ["Snowflake Cortex", "RAG", "Python", "FastAPI", "React"],
     description:
-      "Conversational AI chatbot for private equity analytics built on Snowflake Cortex Analyst. Features LLM-based natural language query rewriting (prompt engineering) to generate accurate SQL from plain English inputs. Designed a dual semantic view architecture (portfolio and fund level) with a dynamic RAG pipeline ingesting PDF reports on Databricks for context-aware answers over unstructured financial documents.",
+      "Production conversational AI platform that translates natural-language questions into secure, verified SQL over financial databases via a dual semantic-view layer on Snowflake Cortex Analyst & Cortex Search, combined with a Databricks RAG pipeline for unstructured investment PDFs.",
     icon: (
       <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M25 6C14.5 6 6 14.5 6 25s8.5 19 19 19 19-8.5 19-19S35.5 6 25 6zm0 4c8.3 0 15 6.7 15 15s-6.7 15-15 15S10 33.3 10 25 16.7 10 25 10zm-2 6v10l8 5 1.5-2.5-6.5-4V16H23z" fill="#ffffff"/>
       </svg>
     ),
     url: null,
-    highlight: "Snowflake Cortex + RAG + LLM Prompt Engineering",
+    highlight: "Snowflake Cortex + Databricks RAG + FastAPI",
   },
   {
     id: 2,
-    title: "Local AI Assistant",
-    category: "AI / Automation",
-    tags: ["Ollama", "n8n", "Local LLM", "Automation"],
+    title: "Enterprise Knowledge Agent & MCP",
+    category: "AI / Multi-Agent",
+    tags: ["Llama2", "LangChain", "LangGraph", "MCP", "Jira"],
     description:
-      "A production local LLM deployment serving real small-business use cases. Built using Ollama for local AI model serving combined with n8n workflow automation, creating a fully offline AI marketing assistant that operates without cloud dependency.",
+      "Secure on-prem multi-agent system implementing the Model Context Protocol to pull live project data from Jira, running automated forecasting on project costs and timeline delays with LangChain, LangGraph, and React surfaces.",
+    icon: (
+      <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="6" y="6" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+        <rect x="28" y="6" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+        <rect x="6" y="28" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+        <rect x="28" y="28" width="16" height="16" rx="2" stroke="#ffffff" strokeWidth="2.5"/>
+        <path d="M14 22v6M36 22v6M22 14h6M22 36h6" stroke="#ffffff" strokeWidth="2.5" strokeLinecap="round"/>
+      </svg>
+    ),
+    url: null,
+    highlight: "Llama2 · LangGraph · MCP · Jira API",
+  },
+  {
+    id: 3,
+    title: "Local AI Marketing Engine",
+    category: "AI / Automation",
+    tags: ["Ollama", "Local LLM", "Python", "FastAPI"],
+    description:
+      "Zero-cloud-dependency agent automating content curation, copy generation, and keyword classification with Ollama and custom Python tool orchestration — eliminating third-party API spend for small-business use cases.",
     icon: (
       <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect x="8" y="8" width="34" height="34" rx="4" stroke="#ffffff" strokeWidth="2.5"/>
@@ -37,15 +57,15 @@ const projects = [
       </svg>
     ),
     url: null,
-    highlight: "Ollama + n8n Workflow Automation",
+    highlight: "Ollama + Local LLM Tool Orchestration",
   },
   {
-    id: 3,
+    id: 4,
     title: "SantyCSS",
     category: "Open Source / Framework",
     tags: ["CSS Framework", "npm", "VS Code Extension", "Figma Plugin"],
     description:
-      "Open-source utility-first CSS framework designed to simplify modern web development through human-readable class names and reusable design patterns. Architected and developed the framework, documentation platform, component ecosystem, and npm package distribution. Includes a VS Code IntelliSense extension, Figma plugin, and PostCSS/Vite integrations.",
+      "Open-source utility-first CSS framework with human-readable class names. Includes a VS Code IntelliSense extension, Figma plugin, and PostCSS/Vite integrations — increasing multi-platform developer UI velocity by 40%.",
     icon: (
       <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M12 14.25H39V32.25H43.5V13.125C43.5 11.2969 41.9531 9.75 40.125 9.75H10.875C8.97656 9.75 7.5 11.2969 7.5 13.125V32.25H12V14.25ZM46.875 34.5H4.125C3.49219 34.5 3 35.0625 3 35.625V36.75C3 39.2812 4.96875 41.25 7.5 41.25H43.5C45.9609 41.25 48 39.2812 48 36.75V35.625C48 35.0625 47.4375 34.5 46.875 34.5ZM28.6641 27.6797C28.9453 27.9609 29.2969 28.0312 29.7188 28.0312C30.0703 28.0312 30.4219 27.9609 30.7031 27.6797L34.0781 24.3047C34.5703 23.7422 34.5703 22.8281 34.0781 22.2656L30.7031 18.8906C30.1406 18.3984 29.2266 18.3984 28.6641 18.8906C28.1719 19.4531 28.1719 20.3672 28.6641 20.9297L31.0547 23.25L28.6641 25.6406C28.1719 26.2031 28.1719 27.1172 28.6641 27.6797ZM22.2656 18.8906C21.7031 18.3984 20.7891 18.3984 20.2266 18.8906L16.8516 22.2656C16.3594 22.8281 16.3594 23.7422 16.8516 24.3047L20.2266 27.6797C20.5078 27.9609 20.8594 28.0312 21.2812 28.0312C21.6328 28.0312 21.9844 27.9609 22.2656 27.6797C22.7578 27.1172 22.7578 26.2031 22.2656 25.6406L19.875 23.25L22.2656 20.9297C22.7578 20.3672 22.7578 19.4531 22.2656 18.8906Z" fill="#ffffff"/>
@@ -55,19 +75,19 @@ const projects = [
     highlight: "Available on npm · santycss.santy.in",
   },
   {
-    id: 4,
+    id: 5,
     title: "UNO No Mercy",
     category: "Game / Real-time",
     tags: ["Multiplayer", "Real-time", "Game Logic", "WebSockets"],
     description:
-      "Real-time multiplayer card game with a custom game logic engine. Implements the UNO No Mercy variant with custom rules, real-time synchronization, and a fully interactive card game experience playable in the browser.",
+      "Real-time multiplayer card game engine with custom state synchronization, achieving under 50ms latency over WebSocket for the UNO No Mercy variant.",
     icon: (
       <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M34.5 12H16.5C8.97656 12 3 18.0469 3 25.5C3 33.0234 8.97656 39 16.5 39H34.5C41.9531 39 48 33.0234 48 25.5C48 18.0469 41.9531 12 34.5 12ZM20.3672 27.1875H18.1172V29.4375C18.1172 30.4219 17.3438 31.125 16.4297 31.125C15.4453 31.125 14.7422 30.4219 14.7422 29.4375V27.1875H12.5625C11.5781 27.1875 10.8047 26.4844 10.8047 25.5C10.8047 24.5859 11.5078 23.8125 12.4922 23.8125H14.7422V21.5625C14.7422 20.6484 15.4453 19.875 16.4297 19.875C17.3438 19.875 18.1172 20.6484 18.1172 21.5625V23.8125H20.3672C21.2812 23.8125 22.0547 24.5859 22.0547 25.5C22.0547 26.4844 21.3516 27.1875 20.3672 27.1875ZM33.3047 31.6875C31.6875 31.6875 30.5625 30.4922 30.5625 28.9453C30.5625 27.4688 31.7578 26.1328 33.3047 26.1328C34.7812 26.1328 36.0469 27.3984 36.0469 28.9453C36.0469 30.5625 34.9219 31.6875 33.3047 31.6875ZM37.8047 24.9375C36.1875 24.9375 35.0625 23.7422 35.0625 22.1953C35.0625 20.7188 36.2578 19.3828 37.8047 19.3828C39.3516 19.3828 40.5469 20.6484 40.5469 22.1953C40.5469 23.8125 39.4219 24.9375 37.8047 24.9375Z" fill="#ffffff"/>
       </svg>
     ),
     url: "https://uno.santy.in",
-    highlight: "Live at uno.santy.in",
+    highlight: "Live at uno.santy.in · under 50ms WebSocket latency",
   },
 ];
 

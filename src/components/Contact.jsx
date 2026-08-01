@@ -5,8 +5,9 @@ import SocialIcon from "./common/SocialIcon";
 import MsgForm from "./contact/MsgForm";
 import GetTouch from "./contact/GetTouch";
 import SalvaLogo from "../assets/images/logo/dark-logo.png";
-import ProfileImg from "../assets/images/homepage/profile-image.png";
 import { Link } from "react-router-dom";
+
+const ProfileImg = "/profile.png";
 
 const Contact = () =>
 {
@@ -211,7 +212,7 @@ const Contact = () =>
                                         </a>
                                       </li>
                                       <li className="salv-menu-social-icon">
-                                        <a href="https://www.linkedin.com/in/santhosh-prabakar-8a05b0aa/">
+                                        <a href="https://www.linkedin.com/in/santhosh-prabakar/">
                                           <svg
                                             width="20"
                                             height="20"
